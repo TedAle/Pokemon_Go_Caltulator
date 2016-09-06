@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Pokemon Go Caltulator</string>
+    <string name="title_activity_select_pokemon_activty">Choose your Pokemon</string>
+</resources>

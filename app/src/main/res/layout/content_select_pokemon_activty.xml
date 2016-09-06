@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.pgc.tedeschi.pokemongocaltulator.SelectPokemonActivty"
+    tools:showIn="@layout/activity_select_pokemon_activty">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <ImageButton
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_bulbasaur"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Bulbasaur_1.96_green.1_Ivysaur" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_ivysaur"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Ivysaur_1.64_green.2_Venusaur" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_charmender"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Charmander_2.27_red.1_Charmeleon" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_charmeleon"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Charmeleon_1.96_red.2_Charizard" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_squirtle"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Squirtle_1.76_blue.1_Wartortle" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_wartortle"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Wartortle_1.79_blue.2_Blastoise" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_caterpie"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Metapod_3.37_green.2_Butterfree" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_metapod"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Metapod_3.37_green.2_Butterfree" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_weedle"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Weedle_1.13_green.1_Kakuna" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_kakuna"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Kakuna_3.27_green.2_Beedrill" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_pidgey"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Pidgey_1.9_light.brown.1_Pidgeotto" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_pidgeotto"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Pidgeotto_1.85_light.brown.2_Pidgeot" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_rattata"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Rattata_2.62_light.brown.1_Raticate" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_spearow"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Spearow_2.64_light.brown.1_Fearow" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_ekans"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Ekans_2.22_violet.1_Arbok" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_pikachu"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Pikachu_2.42_yellow.1_Raichu" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_sandshrew"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Sandshrew_2.35_brown.1_Sandslash" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_nidoran_f"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Nidoran F_1.7_violet.1_Nidorina" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_nidorina"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Nidorina_1.73_violet.2_Nidoqueen" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_nidoran_m"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Nidoran M_1.7_violet.1_Nidorino" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_nidorino"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Nidorino_1.72_violet.2_Nidoking" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_clefairy"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Clefairy_1.99_light.pink.1_Clefable" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_vulpix"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Vulpix_2.86_red.1_Ninetales" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_jigglypuff"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Jigglypuff_2.44_light.pink.1_Wigglytuff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_zubat"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Zubat_3.13_violet.1_Globat" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_oddish"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Oddish_1.52_green.1_Gloom" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_gloom"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Gloom_1.62_green.2_Vileplume" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_paras"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Paras_1.94_violet.1_Parasect" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_venonat"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Venonat_1.86_violet.1_Venomoth" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_diglett"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Diglett_3.27_brown.1_Dugtrio" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_meowth"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Meowth_2.25_light.brown.1_Persian" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_psyduck"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Psyduck_2.26_blue.1_Golduck" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_mankey"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Mankey_2.15_light.brown.1_Primeape" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_growlithe"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Growlithe_2.31_red.1_Arcanine" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_poliwag"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Poliwag_1.81_blue.1_Poliwhirl" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_poliwhirl"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Poliwhirl_1.89_blue.2_Poliwrath" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_abra"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Abra_2.53_light.violet.1_Kadabra" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_kadabra"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Kadabra_1.93_light.violet.2_Alakazam" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_machop"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Machop_1.67_light.brown.1_Machoke" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_machoke"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Machoke_1.59_light.brown.2_Machamp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_bellsprout"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Bellsprout_1.74_green.1_Weepinbell" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_weepinbell"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Weepinbell_1.95_green.2_Victreebell" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_tentacool"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Tentacool_2.73_blue.1_Tentacruel" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_geodude"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Geodude_1.78_grey.1_Graveler" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_graveler"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Graveler_1.62_grey.2_Golem" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_ponyta"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Ponyta_1.49_red.1_Rapidash" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_slowpoke"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Slowpoke_2.2_light.violet.1_Slowbro" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_magnemite"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Magnemite_2.2_light.grey.1_Magneton" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_doduo"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Doduo_2.29_light.brown.1_Dodrio" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_seel"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Seel_1.83_white.1_Dewgong" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_grimer"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Grimer_2.87_violet.1_Muk" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_shelder"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Shellder_2.6_blue.1_Cloyster" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_gastly"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Gastly_1.87_dark_violet.1_Haunter"/>
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_haunter"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Haunter_1.59_dark_violet.2_Gengar"/>
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_drowzee"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Drowzee_2.06_light.violet.1_Hypno" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_krabby"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Krabby_2.33_blue.1_Kingler" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_voltorb"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Voltorb_1.96_yellow.1_Electrode" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_exeggcute"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Exeggcute_2.74_green.1_Exeggutor" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_cubone"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Cubone_1.8_light.brown.1_Marowak"/>
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_koffing"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Koffing_2.86_violet.1_Weezing" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_rhydon"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Rhyhorn_1.98_light.brown.1_Rhydon"/>
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_horsea"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Goldeen_2.19_blue.1_Seaking" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_goldeen"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Goldeen_2.19_blue.1_Seaking" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_staryu"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Staryu_2.39_blue.1_Starmie"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_magikarp"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Magikarp_10.5_blue.1_Gyarados" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_eevee"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Eevee_2.56_light.brown.1_Flareon_Jolteon_Vaporeon" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_omanyte"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Omanyte_2.46_grey.1_Omastar"/>
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_kabuto"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Kabuto_2.04_grey.1_Kabutops" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_dratini"
+            android:gravity="center_vertical"
+            android:maxWidth="64dp"
+            android:onClick="openCalculator"
+            android:tag="Dratini_2.2_light.blue.1_Dragonair" />
+
+        <Button
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:background="@mipmap/ic_dragonair"
+            android:gravity="center_vertical"
+            android:onClick="openCalculator"
+            android:tag="Dragonair_2.18_light.blue.2_Dragonite"/>
+
+    </LinearLayout>
+</LinearLayout>
