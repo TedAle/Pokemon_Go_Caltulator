@@ -1,7 +1,6 @@
 package com.pgc.tedeschi.pokemongocaltulator.utils;
 
 import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 
 import com.pgc.tedeschi.pokemongocaltulator.R;
 
@@ -225,390 +224,390 @@ public class Convert {
 
     public static int findPokemonImage(String pokemonName) {
         if (StringUtils.equals(pokemonName, "Bulbasaur")) {
-            return R.mipmap.ic_bulbasaur;
+            return R.drawable.img_bulbasaur;
         }
         if (StringUtils.equals(pokemonName, "Ivysaur")) {
-            return R.mipmap.ic_ivysaur;
+            return R.drawable.img_ivysaur;
         }
         if (StringUtils.equals(pokemonName, "Charmander")) {
-            return R.mipmap.ic_charmender;
+            return R.drawable.img_charmander;
         }
         if (StringUtils.equals(pokemonName, "Charmeleon")) {
-            return R.mipmap.ic_charmeleon;
+            return R.drawable.img_charmeleon;
         }
         if (StringUtils.equals(pokemonName, "Squirtle")) {
-            return R.mipmap.ic_squirtle;
+            return R.drawable.img_squirtle;
         }
         if (StringUtils.equals(pokemonName, "Wartortle")) {
-            return R.mipmap.ic_wartortle;
+            return R.drawable.img_wartortle;
         }
         if (StringUtils.equals(pokemonName, "Caterpie")) {
-            return R.mipmap.ic_caterpie;
+            return R.drawable.img_caterpie;
         }
         if (StringUtils.equals(pokemonName, "Metapod")) {
-            return R.mipmap.ic_metapod;
+            return R.drawable.img_metapod;
         }
         if (StringUtils.equals(pokemonName, "Weedle")) {
-            return R.mipmap.ic_weedle;
+            return R.drawable.img_weedle;
         }
         if (StringUtils.equals(pokemonName, "Kakuna")) {
-            return R.mipmap.ic_kakuna;
+            return R.drawable.img_kakuna;
         }
         if (StringUtils.equals(pokemonName, "Pidgey")) {
-            return R.mipmap.ic_pidgey;
+            return R.drawable.img_pidgey;
         }
         if (StringUtils.equals(pokemonName, "Pidgeotto")) {
-            return R.mipmap.ic_pidgeotto;
+            return R.drawable.img_pidgeotto;
         }
         if (StringUtils.equals(pokemonName, "Rattata")) {
-            return R.mipmap.ic_rattata;
+            return R.drawable.img_rattata;
         }
         if (StringUtils.equals(pokemonName, "Spearow")) {
-            return R.mipmap.ic_spearow;
+            return R.drawable.img_spearow;
         }
         if (StringUtils.equals(pokemonName, "Ekans")) {
-            return R.mipmap.ic_ekans;
+            return R.drawable.img_ekans;
         }
         if (StringUtils.equals(pokemonName, "Pikachu")) {
-            return R.mipmap.ic_pikachu;
+            return R.drawable.img_pikachu;
         }
         if (StringUtils.equals(pokemonName, "Sandshrew")) {
-            return R.mipmap.ic_sandshrew;
+            return R.drawable.img_sandshrew;
         }
         if (StringUtils.equals(pokemonName, "Nidoran F")) {
-            return R.mipmap.ic_nidoran_f;
+            return R.drawable.img_nidoran_f;
         }
         if (StringUtils.equals(pokemonName, "Nidorina")) {
-            return R.mipmap.ic_nidorina;
+            return R.drawable.img_nidorina;
         }
         if (StringUtils.equals(pokemonName, "Nidoran M")) {
-            return R.mipmap.ic_nidoran_m;
+            return R.drawable.img_nidoran_m;
         }
         if (StringUtils.equals(pokemonName, "Nidorino")) {
-            return R.mipmap.ic_nidorino;
+            return R.drawable.img_nidorino;
         }
         if (StringUtils.equals(pokemonName, "Clefairy")) {
-            return R.mipmap.ic_clefairy;
+            return R.drawable.img_clefairy;
         }
         if (StringUtils.equals(pokemonName, "Vulpix")) {
-            return R.mipmap.ic_vulpix;
+            return R.drawable.img_vulpix;
         }
         if (StringUtils.equals(pokemonName, "Jigglypuff")) {
-            return R.mipmap.ic_jigglypuff;
+            return R.drawable.img_jigglypuff;
         }
         if (StringUtils.equals(pokemonName, "Zubat")) {
-            return R.mipmap.ic_zubat;
+            return R.drawable.img_zubat;
         }
         if (StringUtils.equals(pokemonName, "Oddish")) {
-            return R.mipmap.ic_oddish;
+            return R.drawable.img_oddish;
         }
         if (StringUtils.equals(pokemonName, "Gloom")) {
-            return R.mipmap.ic_gloom;
+            return R.drawable.img_gloom;
         }
         if (StringUtils.equals(pokemonName, "Paras")) {
-            return R.mipmap.ic_paras;
+            return R.drawable.img_paras;
         }
         if (StringUtils.equals(pokemonName, "Venonat")) {
-            return R.mipmap.ic_venonat;
+            return R.drawable.img_venonat;
         }
         if (StringUtils.equals(pokemonName, "Diglett")) {
-            return R.mipmap.ic_diglett;
+            return R.drawable.img_diglett;
         }
         if (StringUtils.equals(pokemonName, "Meowth")) {
-            return R.mipmap.ic_meowth;
+            return R.drawable.img_meowth;
         }
         if (StringUtils.equals(pokemonName, "Psyduck")) {
-            return R.mipmap.ic_psyduck;
+            return R.drawable.img_psyduck;
         }
         if (StringUtils.equals(pokemonName, "Mankey")) {
-            return R.mipmap.ic_mankey;
+            return R.drawable.img_mankey;
         }
         if (StringUtils.equals(pokemonName, "Growlithe")) {
-            return R.mipmap.ic_growlithe;
+            return R.drawable.img_growlithe;
         }
         if (StringUtils.equals(pokemonName, "Poliwag")) {
-            return R.mipmap.ic_poliwag;
+            return R.drawable.img_poliwag;
         }
         if (StringUtils.equals(pokemonName, "Poliwhirl")) {
-            return R.mipmap.ic_poliwhirl;
+            return R.drawable.img_poliwhirl;
         }
         if (StringUtils.equals(pokemonName, "Abra")) {
-            return R.mipmap.ic_abra;
+            return R.drawable.img_abra;
         }
         if (StringUtils.equals(pokemonName, "Kadabra")) {
-            return R.mipmap.ic_kadabra;
+            return R.drawable.img_kadabra;
         }
         if (StringUtils.equals(pokemonName, "Machop")) {
-            return R.mipmap.ic_machop;
+            return R.drawable.img_machop;
         }
         if (StringUtils.equals(pokemonName, "Machoke")) {
-            return R.mipmap.ic_machoke;
+            return R.drawable.img_machoke;
         }
         if (StringUtils.equals(pokemonName, "Bellsprout")) {
-            return R.mipmap.ic_bellsprout;
+            return R.drawable.img_bellsprout;
         }
         if (StringUtils.equals(pokemonName, "Weepinbell")) {
-            return R.mipmap.ic_weepinbell;
+            return R.drawable.img_weepinbell;
         }
         if (StringUtils.equals(pokemonName, "Tentacool")) {
-            return R.mipmap.ic_tentacool;
+            return R.drawable.img_tentacool;
         }
         if (StringUtils.equals(pokemonName, "Geodude")) {
-            return R.mipmap.ic_geodude;
+            return R.drawable.img_geodude;
         }
         if (StringUtils.equals(pokemonName, "Graveler")) {
-            return R.mipmap.ic_graveler;
+            return R.drawable.img_graveler;
         }
         if (StringUtils.equals(pokemonName, "Ponyta")) {
-            return R.mipmap.ic_ponyta;
+            return R.drawable.img_ponyta;
         }
         if (StringUtils.equals(pokemonName, "Slowpoke")) {
-            return R.mipmap.ic_slowpoke;
+            return R.drawable.img_slowpoke;
         }
         if (StringUtils.equals(pokemonName, "Magnemite")) {
-            return R.mipmap.ic_magnemite;
+            return R.drawable.img_magnemite;
         }
         if (StringUtils.equals(pokemonName, "Doduo")) {
-            return R.mipmap.ic_doduo;
+            return R.drawable.img_doduo;
         }
         if (StringUtils.equals(pokemonName, "Seel")) {
-            return R.mipmap.ic_seel;
+            return R.drawable.img_seel;
         }
         if (StringUtils.equals(pokemonName, "Grimer")) {
-            return R.mipmap.ic_grimer;
+            return R.drawable.img_grimer;
         }
         if (StringUtils.equals(pokemonName, "Shellder")) {
-            return R.mipmap.ic_shelder;
+            return R.drawable.img_shellder;
         }
         if (StringUtils.equals(pokemonName, "Gastly")) {
-            return R.mipmap.ic_gastly;
+            return R.drawable.img_gastly;
         }
         if (StringUtils.equals(pokemonName, "Haunter")) {
-            return R.mipmap.ic_haunter;
+            return R.drawable.img_haunter;
         }
         if (StringUtils.equals(pokemonName, "Drowzee")) {
-            return R.mipmap.ic_drowzee;
+            return R.drawable.img_drowzee;
         }
         if (StringUtils.equals(pokemonName, "Krabby")) {
-            return R.mipmap.ic_krabby;
+            return R.drawable.img_krabby;
         }
         if (StringUtils.equals(pokemonName, "Voltorb")) {
-            return R.mipmap.ic_voltorb;
+            return R.drawable.img_voltorb;
         }
         if (StringUtils.equals(pokemonName, "Exeggcute")) {
-            return R.mipmap.ic_exeggcute;
+            return R.drawable.img_exeggcute;
         }
         if (StringUtils.equals(pokemonName, "Cubone")) {
-            return R.mipmap.ic_cubone;
+            return R.drawable.img_cubone;
         }
         if (StringUtils.equals(pokemonName, "Koffing")) {
-            return R.mipmap.ic_koffing;
+            return R.drawable.img_koffing;
         }
         if (StringUtils.equals(pokemonName, "Rhyhorn")) {
-            return R.mipmap.ic_rhyhorn;
+            return R.drawable.img_rhyhorn;
         }
         if (StringUtils.equals(pokemonName, "Horsea")) {
-            return R.mipmap.ic_horsea;
+            return R.drawable.img_horsea;
         }
         if (StringUtils.equals(pokemonName, "Goldeen")) {
-            return R.mipmap.ic_goldeen;
+            return R.drawable.img_goldeen;
         }
         if (StringUtils.equals(pokemonName, "Staryu")) {
-            return R.mipmap.ic_staryu;
+            return R.drawable.img_staryu;
         }
         if (StringUtils.equals(pokemonName, "Magikarp")) {
-            return R.mipmap.ic_magikarp;
+            return R.drawable.img_magikarp;
         }
         if (StringUtils.equals(pokemonName, "Eevee")) {
-            return R.mipmap.ic_eevee;
+            return R.drawable.img_eevee;
         }
         if (StringUtils.equals(pokemonName, "Omanyte")) {
-            return R.mipmap.ic_omanyte;
+            return R.drawable.img_omanyte;
         }
         if (StringUtils.equals(pokemonName, "Kabuto")) {
-            return R.mipmap.ic_kabuto;
+            return R.drawable.img_kabuto;
         }
         if (StringUtils.equals(pokemonName, "Dratini")) {
-            return R.mipmap.ic_dratini;
+            return R.drawable.img_dratini;
         }
         if (StringUtils.equals(pokemonName, "Dragonair")) {
-            return R.mipmap.ic_dragonair;
+            return R.drawable.img_dragonair;
         }
         if (StringUtils.equals(pokemonName, "Dragonite")) {
-            return R.mipmap.ic_dragonite;
+            return R.drawable.img_dragonite;
         }
 
         if (StringUtils.equals(pokemonName, "Venusaur")) {
-            return R.mipmap.ic_venusaur;
+            return R.drawable.img_venusaur;
         }
 
         if (StringUtils.equals(pokemonName, "Charizard")) {
-            return R.mipmap.ic_charizard;
+            return R.drawable.img_charizard;
         }
         if (StringUtils.equals(pokemonName, "Blastoise")) {
-            return R.mipmap.ic_blastoise;
+            return R.drawable.img_blastoise;
         }
         if (StringUtils.equals(pokemonName, "Butterfree")) {
-            return R.mipmap.ic_butterfree;
+            return R.drawable.img_butterfree;
         }
         if (StringUtils.equals(pokemonName, "Beedrill")) {
-            return R.mipmap.ic_beedrill;
+            return R.drawable.img_beedrill;
         }
         if (StringUtils.equals(pokemonName, "Pidgeot")) {
-            return R.mipmap.ic_pidgeot;
+            return R.drawable.img_pidgeot;
         }
         if (StringUtils.equals(pokemonName, "Raticate")) {
-            return R.mipmap.ic_raticate;
+            return R.drawable.img_raticate;
         }
         if (StringUtils.equals(pokemonName, "Fearow")) {
-            return R.mipmap.ic_fearow;
+            return R.drawable.img_fearow;
         }
         if (StringUtils.equals(pokemonName, "Arbok")) {
-            return R.mipmap.ic_arbok;
+            return R.drawable.img_arbok;
         }
         if (StringUtils.equals(pokemonName, "Raichu")) {
-            return R.mipmap.ic_raichu;
+            return R.drawable.img_raichu;
         }
         if (StringUtils.equals(pokemonName, "Sandslash")) {
-            return R.mipmap.ic_sandslash;
+            return R.drawable.img_sandlash;
         }
         if (StringUtils.equals(pokemonName, "Nidoqueen")) {
-            return R.mipmap.ic_nidoqueen;
+            return R.drawable.img_nidoqueen;
         }
         if (StringUtils.equals(pokemonName, "Nidoking")) {
-            return R.mipmap.ic_nidoking;
+            return R.drawable.img_nidoking;
         }
         if (StringUtils.equals(pokemonName, "Clefable")) {
-            return R.mipmap.ic_clefable;
+            return R.drawable.img_clefable;
         }
         if (StringUtils.equals(pokemonName, "Ninetales")) {
-            return R.mipmap.ic_ninetales;
+            return R.drawable.img_ninetales;
         }
         if (StringUtils.equals(pokemonName, "Wigglytuff")) {
-            return R.mipmap.ic_wigglytuff;
+            return R.drawable.img_wigglytuff;
         }
         if (StringUtils.equals(pokemonName, "Globat")) {
-            return R.mipmap.ic_golbat;
+            return R.drawable.img_golbat;
         }
         if (StringUtils.equals(pokemonName, "Vileplume")) {
-            return R.mipmap.ic_vileplume;
+            return R.drawable.img_vileplume;
         }
         if (StringUtils.equals(pokemonName, "Parasect")) {
-            return R.mipmap.ic_parasect;
+            return R.drawable.img_parasect;
         }
         if (StringUtils.equals(pokemonName, "Venomoth")) {
-            return R.mipmap.ic_venomoth;
+            return R.drawable.img_venomoth;
         }
         if (StringUtils.equals(pokemonName, "Dugtrio")) {
-            return R.mipmap.ic_dugtrio;
+            return R.drawable.img_dugtrio;
         }
         if (StringUtils.equals(pokemonName, "Persian")) {
-            return R.mipmap.ic_persian;
+            return R.drawable.img_persian;
         }
         if (StringUtils.equals(pokemonName, "Golduck")) {
-            return R.mipmap.ic_golduck;
+            return R.drawable.img_golduck;
         }
         if (StringUtils.equals(pokemonName, "Primeape")) {
-            return R.mipmap.ic_primeape;
+            return R.drawable.img_primeape;
         }
         if (StringUtils.equals(pokemonName, "Arcanine")) {
-            return R.mipmap.ic_arcanine;
+            return R.drawable.img_arcanine;
         }
         if (StringUtils.equals(pokemonName, "Poliwrath")) {
-            return R.mipmap.ic_poliwrath;
+            return R.drawable.img_poliwrath;
         }
         if (StringUtils.equals(pokemonName, "Alakazam")) {
-            return R.mipmap.ic_alakazam;
+            return R.drawable.img_alakazam;
         }
         if (StringUtils.equals(pokemonName, "Machamp")) {
-            return R.mipmap.ic_machamp;
+            return R.drawable.img_machamp;
         }
         if (StringUtils.equals(pokemonName, "Victreebell")) {
-            return R.mipmap.ic_victreebel;
+            return R.drawable.img_victreebel;
         }
         if (StringUtils.equals(pokemonName, "Tentacruel")) {
-            return R.mipmap.ic_tentacruel;
+            return R.drawable.img_tentacruel;
         }
         if (StringUtils.equals(pokemonName, "Graveler")) {
-            return R.mipmap.ic_graveler;
+            return R.drawable.img_graveler;
         }
         if (StringUtils.equals(pokemonName, "Golem")) {
-            return R.mipmap.ic_golem;
+            return R.drawable.img_golem;
         }
         if (StringUtils.equals(pokemonName, "Rapidash")) {
-            return R.mipmap.ic_rapidash;
+            return R.drawable.img_rapidash;
         }
         if (StringUtils.equals(pokemonName, "Slowbro")) {
-            return R.mipmap.ic_slowbro;
+            return R.drawable.img_slowbro;
         }
         if (StringUtils.equals(pokemonName, "Magneton")) {
-            return R.mipmap.ic_magneton;
+            return R.drawable.img_magneton;
         }
         if (StringUtils.equals(pokemonName, "Dodrio")) {
-            return R.mipmap.ic_dodrio;
+            return R.drawable.img_dodrio;
         }
         if (StringUtils.equals(pokemonName, "Dewgong")) {
-            return R.mipmap.ic_dewgong;
+            return R.drawable.img_dewgong;
         }
         if (StringUtils.equals(pokemonName, "Muk")) {
-            return R.mipmap.ic_muk;
+            return R.drawable.img_muk;
         }
         if (StringUtils.equals(pokemonName, "Cloyster")) {
-            return R.mipmap.ic_clyster;
+            return R.drawable.img_clyster;
         }
         if (StringUtils.equals(pokemonName, "Gengar")) {
-            return R.mipmap.ic_gengar;
+            return R.drawable.img_gengar;
         }
         if (StringUtils.equals(pokemonName, "Hypno")) {
-            return R.mipmap.ic_hypno;
+            return R.drawable.img_hypno;
         }
         if (StringUtils.equals(pokemonName, "Kingler")) {
-            return R.mipmap.ic_kingler;
+            return R.drawable.img_kingler;
         }
         if (StringUtils.equals(pokemonName, "Electrode")) {
-            return R.mipmap.ic_electorde;
+            return R.drawable.img_electorde;
         }
         if (StringUtils.equals(pokemonName, "Exeggutor")) {
-            return R.mipmap.ic_exeggcutor;
+            return R.drawable.img_exeggutor;
         }
         if (StringUtils.equals(pokemonName, "Marowak")) {
-            return R.mipmap.ic_marowak;
+            return R.drawable.img_marowak;
         }
         if (StringUtils.equals(pokemonName, "Weezing")) {
-            return R.mipmap.ic_weezing;
+            return R.drawable.img_weezing;
         }
         if (StringUtils.equals(pokemonName, "Rhydon")) {
-            return R.mipmap.ic_rhydon;
+            return R.drawable.img_rhydon;
         }
         if (StringUtils.equals(pokemonName, "Seadra")) {
-            return R.mipmap.ic_seadra;
+            return R.drawable.img_seadra;
         }
         if (StringUtils.equals(pokemonName, "Seaking")) {
-            return R.mipmap.ic_seaking;
+            return R.drawable.img_seaking;
         }
         if (StringUtils.equals(pokemonName, "Starmie")) {
-            return R.mipmap.ic_starmie;
+            return R.drawable.img_starmie;
         }
         if (StringUtils.equals(pokemonName, "Gyarados")) {
-            return R.mipmap.ic_gyarados;
+            return R.drawable.img_gyarados;
         }
         if (StringUtils.equals(pokemonName, "Flareon")) {
-            return R.mipmap.ic_flareon;
+            return R.drawable.img_flareon;
         }
         if (StringUtils.equals(pokemonName, "Jolteon")) {
-            return R.mipmap.ic_jolteon;
+            return R.drawable.img_jolteon;
         }
         if (StringUtils.equals(pokemonName, "Vaporeon")) {
-            return R.mipmap.ic_vaporeon;
+            return R.drawable.img_vaporeon;
         }
         if (StringUtils.equals(pokemonName, "Omastar")) {
-            return R.mipmap.ic_omastar;
+            return R.drawable.img_omastar;
         }
         if (StringUtils.equals(pokemonName, "Kabutops")) {
-            return R.mipmap.ic_kabutops;
+            return R.drawable.img_kabutops;
         }
         if (StringUtils.equals(pokemonName, "Dragonite")) {
-            return R.mipmap.ic_dragonite;
+            return R.drawable.img_dragonite;
         }
         return -1;
     }

@@ -100,7 +100,7 @@
             android:background="@mipmap/ic_caterpie"
             android:gravity="center_vertical"
             android:onClick="openCalculator"
-            android:tag="Metapod_3.37_green.2_Butterfree" />
+            android:tag="Caterpie_1.3_green.1_Metapod" />
 
         <Button
             android:layout_width="64dp"
@@ -695,7 +695,7 @@
             android:background="@mipmap/ic_gastly"
             android:gravity="center_vertical"
             android:onClick="openCalculator"
-            android:tag="Gastly_1.87_dark_violet.1_Haunter"/>
+            android:tag="Gastly_1.87_dark.violet.1_Haunter"/>
 
         <Button
             android:layout_width="64dp"
@@ -706,7 +706,7 @@
             android:background="@mipmap/ic_haunter"
             android:gravity="center_vertical"
             android:onClick="openCalculator"
-            android:tag="Haunter_1.59_dark_violet.2_Gengar"/>
+            android:tag="Haunter_1.59_dark.violet.2_Gengar"/>
 
         <Button
             android:layout_width="64dp"
@@ -796,7 +796,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:layout_weight="1"
-            android:background="@mipmap/ic_rhydon"
+            android:background="@mipmap/ic_rhyhorn"
             android:gravity="center_vertical"
             android:onClick="openCalculator"
             android:tag="Rhyhorn_1.98_light.brown.1_Rhydon"/>
@@ -810,7 +810,7 @@
             android:background="@mipmap/ic_horsea"
             android:gravity="center_vertical"
             android:onClick="openCalculator"
-            android:tag="Goldeen_2.19_blue.1_Seaking" />
+            android:tag="Horsea_2.22_blue.1_Seadra"/>
 
         <Button
             android:layout_width="64dp"

@@ -92,7 +92,7 @@
 
         <ImageView
             android:id="@+id/img_pokemon"
-            android:background="@mipmap/ic_magikarp"
+            android:background="@android:color/transparent"
             android:gravity="center_vertical"
             android:layout_marginTop="32dp"
             android:layout_width="80dp"
@@ -107,7 +107,7 @@
 
         <ImageView
             android:id="@+id/img_pokemon_evo"
-            android:background="@mipmap/ic_gyarados"
+            android:background="@android:color/transparent"
             android:gravity="center_vertical"
             android:layout_width="128dp"
             android:layout_height="128dp" />
