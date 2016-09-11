@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="info_dialog_text">With this simple app, you can estimate which CP can gain your Pokèmon with its evolution!</string>
+    <string name="trainer_calculator_text_menu">Trainer Calc</string>
 </resources>

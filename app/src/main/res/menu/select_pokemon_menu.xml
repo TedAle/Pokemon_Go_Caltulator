@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/trainer_info"
+        android:title="@string/trainer_calculator_text_menu"
+        android:icon="@drawable/ic_trainer_hat"
+        app:showAsAction="always">
+        <!--
+        <menu>
+            <item android:id="@+id/create_new"
+                android:title="@string/create_new" />
+            <item android:id="@+id/open"
+                android:title="@string/open" />
+        </menu>
+        "file" submenu -->
+    </item>
+    <item android:id="@+id/exp_info"
+        android:title="@string/trainer_calculator_text_menu"
+        android:icon="@drawable/ic_stardust"
+        app:showAsAction="always">
+    </item>
+</menu>
