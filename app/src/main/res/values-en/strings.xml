@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Pokemon Go Caltulator</string>
-    <string name="title_activity_select_pokemon_activty">Choose your Pokèmon</string>
     <string name="info_dialog_text">With this simple app, you can estimate which CP can gain your Pokèmon with its evolution!</string>
+    <string name="title_activity_select_pokemon_activty">Choose your Pokèmon</string>
 </resources>

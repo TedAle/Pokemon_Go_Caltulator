@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pokemon Go Caltulator</string>
+    <string name="title_activity_select_pokemon_activty">Scegli il tuo Pokèmon</string>
+    <string name="info_dialog_text">Grazie a questa semplice app, puoi calcolare il CP ottenibile dal tuo Pokèmon grazie alla sua evoluzione!</string>
+</resources>
