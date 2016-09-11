@@ -1,6 +1,9 @@
 package com.pgc.tedeschi.pokemongocaltulator;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.CoordinatorLayout;
@@ -46,6 +49,15 @@ public class SelectPokemonActivty extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.select_pokemon_menu, menu);
+
+        for(int i = 0; i < menu.size(); i++){
+            Drawable drawable = menu.getItem(i).getIcon();
+            if(drawable != null) {
+                drawable.mutate();
+                drawable.setColorFilter(getResources().getColor(R.color.common_signin_btn_dark_text_default), PorterDuff.Mode.SRC_ATOP);
+            }
+        }
+
         return true;
     }
 

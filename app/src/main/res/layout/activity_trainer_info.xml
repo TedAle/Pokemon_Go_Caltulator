@@ -25,7 +25,8 @@
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="64dp">
+        android:background="#EBFFFA"
+        android:layout_marginTop="32dp">
 
         <include layout="@layout/content_trainer_info" />
     </ScrollView>
