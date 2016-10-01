@@ -26,6 +26,9 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.view.ViewGroup.LayoutParams;
 
+import com.pgc.tedeschi.pokemongocaltulator.menu.EggInfoActivity;
+import com.pgc.tedeschi.pokemongocaltulator.menu.PokemonExpInfoActivity;
+
 import org.apache.commons.lang3.StringUtils;
 
 public class SelectPokemonActivty extends AppCompatActivity {
@@ -37,9 +40,12 @@ public class SelectPokemonActivty extends AppCompatActivity {
             case R.id.trainer_info:
                 startTrainerInfoActivity();
                 return true;
-            //case R.id.help:
-            //    showHelp();
-            //    return true;
+            case R.id.exp_info:
+                startPokemonExpInfoActivity();
+                return true;
+            case R.id.egg_info:
+                startEggInfoActivity();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -97,10 +103,21 @@ public class SelectPokemonActivty extends AppCompatActivity {
         });
     }
 
+    private void startAnotherActivity(Class activityClass) {
+        Intent trainerInfoActivityIntent = new Intent(this, activityClass);
+        this.startActivity(trainerInfoActivityIntent);
+    }
+
+    private void startEggInfoActivity() {
+        startAnotherActivity(EggInfoActivity.class);
+    }
+
+    private void startPokemonExpInfoActivity() {
+        startAnotherActivity(PokemonExpInfoActivity.class);
+    }
 
     private void startTrainerInfoActivity() {
-        Intent trainerInfoActivityIntent = new Intent(this, TrainerInfoActivity.class);
-        this.startActivity(trainerInfoActivityIntent);
+        startAnotherActivity(TrainerInfoActivity.class);
     }
 
     public void openCalculator(View view) {

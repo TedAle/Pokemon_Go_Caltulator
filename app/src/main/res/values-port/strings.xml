@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exp_info_text_menu">Exp info</string>
+    <string name="egg_info_text_menu">Egg Info</string>
+</resources>

@@ -5,4 +5,6 @@
     <string name="info_dialog_text">Grazie a questa semplice app, puoi calcolare il CP ottenibile dal tuo Pokèmon grazie alla sua evoluzione!</string>
     <string name="trainer_calculator_text_menu">Trainer Calc</string>
     <string name="title_activity_trainer_info">TrainerInfoActivity</string>
+    <string name="exp_info_text_menu">Exp info</string>
+    <string name="egg_info_text_menu">Egg Info</string>
 </resources>

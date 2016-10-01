@@ -27,6 +27,7 @@ import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.pgc.tedeschi.pokemongocaltulator.utils.Convert;
+import com.pgc.tedeschi.pokemongocaltulator.utils.Pokemon;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -40,7 +41,8 @@ public class PokemonCalculatorActivity extends AppCompatActivity {
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
     private GoogleApiClient client;
-    private Double pokemonCPFactor;
+    private Double pokemonCPFactorMin;
+    private Double pokemonCPFactorMax;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,8 +57,14 @@ public class PokemonCalculatorActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String pokemonName = intent.getStringExtra("pokemonName");
         Log.i("###$pokemonName", pokemonName);
-        pokemonCPFactor = intent.getDoubleExtra("pokemonCPFactor",1.0);
-        Log.i("###$pokemonCPFactor", pokemonCPFactor + "");
+
+        Pokemon pokemon = Convert.findPokemon(pokemonName);
+        Log.i("###$pokemon", pokemon.toString());
+        pokemonCPFactorMin = pokemon.getEvoCpMin()/100.0;
+        pokemonCPFactorMax = pokemon.getEvoCpMin()/100.0;
+        //pokemonCPFactor = intent.getDoubleExtra("pokemonCPFactor",1.0);
+        //Log.i("###$pokemonCPFactor", pokemonCPFactor + "");
+
         int pokemonColor = Convert.findColorByString(intent.getStringExtra("pokemonColor"));
         Log.i("###$pokemonColor", pokemonColor + "");
         String pokemonEvo = intent.getStringExtra("pokemonEvo1");
@@ -121,8 +129,8 @@ public class PokemonCalculatorActivity extends AppCompatActivity {
             return;
         }
         int pokemonCP = Integer.valueOf(String.valueOf(ed_pokemonCP.getText()));
-        double min = pokemonCP * (pokemonCPFactor-0.1);
-        double max = pokemonCP * (pokemonCPFactor+0.1);
+        double min = pokemonCP * (pokemonCPFactorMin-0.1);
+        double max = pokemonCP * (pokemonCPFactorMax+0.1);
         DecimalFormat df = new DecimalFormat("#########.##");
         String lblMin = df.format(min);
         String lblMax = df.format(max);

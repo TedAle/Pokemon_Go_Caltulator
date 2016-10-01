@@ -16,8 +16,13 @@
         "file" submenu -->
     </item>
     <item android:id="@+id/exp_info"
-        android:title="@string/trainer_calculator_text_menu"
+        android:title="@string/exp_info_text_menu"
         android:icon="@drawable/ic_stardust"
+        app:showAsAction="always">
+    </item>
+    <item android:id="@+id/egg_info"
+        android:title="@string/egg_info_text_menu"
+        android:icon="@drawable/ic_egg"
         app:showAsAction="always">
     </item>
 </menu>

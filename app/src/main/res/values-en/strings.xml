@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Pokemon Go Calculator</string>
-    <string name="info_dialog_text">With this simple app, you can estimate which CP can gain your Pokèmon with its evolution!</string>
+    <string name="info_dialog_text">With this simple app, you can estimate which CP could will gain your Pokèmon with its evolution!</string>
     <string name="title_activity_select_pokemon_activty">Choose your Pokèmon</string>
     <string name="trainer_calculator_text_menu">Trainer Calc</string>
     <string name="title_activity_trainer_info">TrainerInfoActivity</string>
+    <string name="exp_info_text_menu">Exp info</string>
+    <string name="egg_info_text_menu">Egg Info</string>
 </resources>

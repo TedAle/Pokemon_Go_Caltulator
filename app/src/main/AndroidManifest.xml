@@ -40,6 +40,25 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.pgc.tedeschi.pokemongocaltulator.SelectPokemonActivty" />
         </activity>
+        <activity
+            android:name=".menu.EggInfoActivity"
+            android:label="@string/title_activity_egg_info"
+            android:parentActivityName=".SelectPokemonActivty"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pgc.tedeschi.pokemongocaltulator.SelectPokemonActivty" />
+        </activity>
+        <activity
+            android:name=".menu.PokemonExpInfoActivity"
+            android:label="@string/title_activity_pokemon_exp_info"
+            android:parentActivityName=".SelectPokemonActivty"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pgc.tedeschi.pokemongocaltulator.SelectPokemonActivty" />
+        </activity>
     </application>
 
 </manifest>

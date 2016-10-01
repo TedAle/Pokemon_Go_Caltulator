@@ -11,6 +11,161 @@ import org.apache.commons.lang3.StringUtils;
  */
 public class Convert {
 
+    public static Pokemon findPokemon(String pokemonName) {
+        if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.JOLTEON.getName())) {
+            return Pokemon.JOLTEON;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.FLAREON.getName())) {
+            return Pokemon.FLAREON;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.BULBASAUR.getName())) {
+            return Pokemon.BULBASAUR;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.IVYSAUR.getName())) {
+            return Pokemon.IVYSAUR;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.CHARMANDER.getName())) {
+            return Pokemon.CHARMANDER;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.CHARMELEON.getName())) {
+            return Pokemon.CHARMELEON;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.SQUIRTLE.getName())) {
+            return Pokemon.SQUIRTLE;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.WARTORTLE.getName())) {
+            return Pokemon.WARTORTLE;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.CATERPIE.getName())) {
+            return Pokemon.CATERPIE;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.METAPOD.getName())) {
+            return Pokemon.METAPOD;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.WEEDLE.getName())) {
+            return Pokemon.WEEDLE;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.KAKUNA.getName())) {
+            return Pokemon.KAKUNA;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.PIDGEY.getName())) {
+            return Pokemon.PIDGEY;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.PIDGEOTTO.getName())) {
+            return Pokemon.PIDGEOTTO;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.RATTATA.getName())) {
+            return Pokemon.RATTATA;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.SPEAROW.getName())) {
+            return Pokemon.SPEAROW;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.EKANS.getName())) {
+            return Pokemon.EKANS;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.PIKACHU.getName())) {
+            return Pokemon.PIKACHU;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.SANDSHREW.getName())) {
+            return Pokemon.SANDSHREW;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.NIDORAN_F.getName())) {
+            return Pokemon.NIDORAN_F;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.NIDORINA.getName())) {
+            return Pokemon.NIDORINA;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.NIDORAN_M.getName())) {
+            return Pokemon.NIDORAN_M;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.NIDORINO.getName())) {
+            return Pokemon.NIDORINO;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.CLEFAIRY.getName())) {
+            return Pokemon.CLEFAIRY;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.VULPIX.getName())) {
+            return Pokemon.VULPIX;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.JIGGLYPUFF.getName())) {
+            return Pokemon.JIGGLYPUFF;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.ZUBAT.getName())) {
+            return Pokemon.ZUBAT;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.ODDISH.getName())) {
+            return Pokemon.ODDISH;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.GLOOM.getName())) {
+            return Pokemon.GLOOM;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.PARAS.getName())) {
+            return Pokemon.PARAS;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.VENONAT.getName())) {
+            return Pokemon.VENONAT;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.DIGLETT.getName())) {
+            return Pokemon.DIGLETT;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.MEOWTH.getName())) {
+            return Pokemon.MEOWTH;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.PSYDUCK.getName())) {
+            return Pokemon.PSYDUCK;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.MANKEY.getName())) {
+            return Pokemon.MANKEY;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.GROWLITHE.getName())) {
+            return Pokemon.GROWLITHE;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.POLIWAG.getName())) {
+            return Pokemon.POLIWAG;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.POLIWHIRL.getName())) {
+            return Pokemon.POLIWHIRL;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.ABRA.getName())) {
+            return Pokemon.ABRA;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.KADABRA.getName())) {
+            return Pokemon.KADABRA;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.MACHOP.getName())) {
+            return Pokemon.MACHOP;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.MACHOKE.getName())) {
+            return Pokemon.MACHOKE;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.BELLSPROUT.getName())) {
+            return Pokemon.BELLSPROUT;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.WEEPINBELL.getName())) {
+            return Pokemon.WEEPINBELL;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.TENTACOOL.getName())) {
+            return Pokemon.TENTACOOL;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.GEODUDE.getName())) {
+            return Pokemon.GEODUDE;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.GRAVELER.getName())) {
+            return Pokemon.GRAVELER;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.PONYTA.getName())) {
+            return Pokemon.PONYTA;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.SLOWPOKE.getName())) {
+            return Pokemon.SLOWPOKE;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.MAGNEMITE.getName())) {
+            return Pokemon.MAGNEMITE;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.DODUO.getName())) {
+            return Pokemon.DODUO;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.SEEL.getName())) {
+            return Pokemon.SEEL;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.GRIMER.getName())) {
+            return Pokemon.GRIMER;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.SHELLDER.getName())) {
+            return Pokemon.SHELLDER;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.GASTLY.getName())) {
+            return Pokemon.GASTLY;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.HAUNTER.getName())) {
+            return Pokemon.HAUNTER;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.DROWZEE.getName())) {
+            return Pokemon.DROWZEE;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.KRABBY.getName())) {
+            return Pokemon.KRABBY;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.VOLTORB.getName())) {
+            return Pokemon.VOLTORB;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.EXEGGCUTE.getName())) {
+            return Pokemon.EXEGGCUTE;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.CUBONE.getName())) {
+            return Pokemon.CUBONE;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.KOFFING.getName())) {
+            return Pokemon.KOFFING;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.RHYHORN.getName())) {
+            return Pokemon.RHYHORN;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.HORSEA.getName())) {
+            return Pokemon.HORSEA;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.GOLDEEN.getName())) {
+            return Pokemon.GOLDEEN;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.STARYU.getName())) {
+            return Pokemon.STARYU;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.MAGIKARP.getName())) {
+            return Pokemon.MAGIKARP;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.FLAREON.getName())) {
+            return Pokemon.FLAREON;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.JOLTEON.getName())) {
+            return Pokemon.JOLTEON;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.VAPOREON.getName())) {
+            return Pokemon.VAPOREON;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.OMANYTE.getName())) {
+            return Pokemon.OMANYTE;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.KABUTO.getName())) {
+            return Pokemon.KABUTO;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.DRATINI.getName())) {
+            return Pokemon.DRATINI;
+        } else if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.DRAGONAIR.getName())) {
+            return Pokemon.DRAGONAIR;
+        } else {
+            return null;
+        }
+
+    }
+
     public static String findColorPerPokemon(String pokemonName) {
         if (StringUtils.equalsIgnoreCase(pokemonName, Pokemon.JOLTEON.getName())) {
             return Pokemon.JOLTEON.getColor().getHex();
