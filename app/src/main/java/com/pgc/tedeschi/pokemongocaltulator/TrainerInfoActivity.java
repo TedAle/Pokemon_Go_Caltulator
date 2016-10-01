@@ -14,6 +14,12 @@ public class TrainerInfoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_trainer_info);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+        /**
+         * Setto il titolo al layout della activity
+         */
+        toolbar.setTitle("Trainer Levels");
+
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);

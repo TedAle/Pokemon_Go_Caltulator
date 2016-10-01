@@ -8,7 +8,6 @@
     tools:context="com.pgc.tedeschi.pokemongocaltulator.menu.PokemonExpInfoActivity">
 
     <android.support.design.widget.AppBarLayout
-        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
@@ -22,7 +21,12 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_pokemon_exp_info" />
+    <ScrollView
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/content_pokemon_exp_info" />
+    </ScrollView>
 
     <android.support.design.widget.FloatingActionButton
         android:visibility="gone"

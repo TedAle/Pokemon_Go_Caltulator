@@ -16,8 +16,12 @@ public class EggInfoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_egg_info);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //Setto il titolo al layout della activity
+        toolbar.setTitle("Eggs Chart");
+
         setSupportActionBar(toolbar);
 
+        /*
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,6 +30,7 @@ public class EggInfoActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        */
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 

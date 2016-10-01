@@ -1,6 +1,7 @@
 package com.pgc.tedeschi.pokemongocaltulator;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
@@ -72,6 +73,9 @@ public class SelectPokemonActivty extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_pokemon_activty);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+        toolbar.setTitle(getString(R.string.title_activity_select_pokemon_activty));
+
         setSupportActionBar(toolbar);
 
 

@@ -16,8 +16,15 @@ public class PokemonExpInfoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pokemon_exp_info);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+        /**
+         * Setto il titolo al layout della activity
+         */
+        toolbar.setTitle("Pokemon Levels");
+
         setSupportActionBar(toolbar);
 
+        /*
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,6 +33,7 @@ public class PokemonExpInfoActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        */
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
