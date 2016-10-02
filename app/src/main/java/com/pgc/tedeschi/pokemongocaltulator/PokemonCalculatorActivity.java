@@ -41,8 +41,8 @@ public class PokemonCalculatorActivity extends AppCompatActivity {
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
     private GoogleApiClient client;
-    private Double pokemonCPFactorMin;
-    private Double pokemonCPFactorMax;
+    private Double pokemonCPFactorMin = 1.0;
+    private Double pokemonCPFactorMax = 1.0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,9 +59,11 @@ public class PokemonCalculatorActivity extends AppCompatActivity {
         Log.i("###$pokemonName", pokemonName);
 
         Pokemon pokemon = Convert.findPokemon(pokemonName);
-        Log.i("###$pokemon", pokemon.toString());
-        pokemonCPFactorMin = pokemon.getEvoCpMin()/100.0;
-        pokemonCPFactorMax = pokemon.getEvoCpMin()/100.0;
+        if (pokemon != null) {
+            Log.i("###$pokemon", pokemon.toString());
+            pokemonCPFactorMin = pokemon.getEvoCpMin() / 100.0;
+            pokemonCPFactorMax = pokemon.getEvoCpMin() / 100.0;
+        }
         //pokemonCPFactor = intent.getDoubleExtra("pokemonCPFactor",1.0);
         //Log.i("###$pokemonCPFactor", pokemonCPFactor + "");
 
@@ -186,6 +188,11 @@ public class PokemonCalculatorActivity extends AppCompatActivity {
             return;
         }
         String pokemonEvo = ((RadioButton)view).getText().toString();
+
+        Pokemon pokemon = Convert.findPokemon(pokemonEvo);
+        pokemonCPFactorMin = pokemon.getEvoCpMin()/100.0;
+        pokemonCPFactorMax = pokemon.getEvoCpMax()/100.0;
+
         ImageView img_pokemon_evo = (ImageView)findViewById(R.id.img_pokemon_evo);
         setPokemonImage(img_pokemon_evo, Convert.findPokemonImage(pokemonEvo));
         Log.d("###$Convert.findColorPerPokemon(pokemonEvo)",Convert.findColorPerPokemon(pokemonEvo));

@@ -2,6 +2,9 @@
 <resources>
     <string name="info_dialog_text">With this simple app, you can estimate which CP can gain your Pokèmon with its evolution!</string>
     <string name="trainer_calculator_text_menu">Trainer Calc</string>
+    <string name="title_activity_trainer_info">TrainerInfoActivity</string>
     <string name="exp_info_text_menu">Exp info</string>
     <string name="egg_info_text_menu">Egg Info</string>
+    <string name="title_activity_egg_info">EggInfoActivity</string>
+    <string name="title_activity_pokemon_exp_info">PokemonExpInfoActivity</string>
 </resources>

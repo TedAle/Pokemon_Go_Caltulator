@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="title_activity_trainer_info">TrainerInfoActivity</string>
     <string name="exp_info_text_menu">Exp info</string>
     <string name="egg_info_text_menu">Egg Info</string>
+    <string name="title_activity_egg_info">EggInfoActivity</string>
+    <string name="title_activity_pokemon_exp_info">PokemonExpInfoActivity</string>
 </resources>
